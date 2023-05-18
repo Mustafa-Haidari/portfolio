@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import workData from "../data/WorkData";
 import ProjectModal from "./ProjectModal";
+import { FaGithub } from "react-icons/fa";
+import { FaLock } from "react-icons/fa";
 
 const Projects = () => {
   const [modalOn, setModalOn] = useState(false);
@@ -51,26 +53,45 @@ const Projects = () => {
                         : work.description}
                     </p>
 
-                    {work.architecture && (
-                      <a
-                        href={work.architecture}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <button className="bg-transparent hover:bg-blue-500 text-blue-700 text-sm hover:text-white py-1 px-2 border border-blue-500 hover:border-transparent rounded">
-                          Project architecture
-                        </button>
-                      </a>
-                    )}
+                    <div className="flex gap-2">
+                      {work.ghUrl && (
+                        <a href={work.ghUrl} target="_blank" rel="noreferrer">
+                          <button className="bg-transparent flex gap-2 hover:bg-blue-500 text-blue-700 text-sm hover:text-white py-1 px-2 border border-blue-500 hover:border-transparent rounded">
+                            <span>Github</span> <FaGithub />
+                          </button>
+                        </a>
+                      )}
+                      {!work.ghUrl && (
+                        <>
+                          <button
+                            className="bg-transparent flex gap-2 text-gray-400 text-sm py-1 px-2 border border-gray-400 rounded"
+                            disabled
+                          >
+                            <FaLock /> <FaGithub />
+                          </button>
+                        </>
+                      )}
+                      {work.architecture && (
+                        <a
+                          href={work.architecture}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <button className="bg-transparent hover:bg-blue-500 text-blue-700 text-sm hover:text-white py-1 px-2 border border-blue-500 hover:border-transparent rounded">
+                            Project architecture
+                          </button>
+                        </a>
+                      )}
 
-                    {!work.architecture && (
-                      <button
-                        className="bg-transparent  text-gray-400 text-sm py-1 px-2 border border-gray-400 rounded"
-                        disabled
-                      >
-                        No architecture available
-                      </button>
-                    )}
+                      {!work.architecture && (
+                        <button
+                          className="bg-transparent  text-gray-400 text-sm py-1 px-2 border border-gray-400 rounded"
+                          disabled
+                        >
+                          No architecture saved
+                        </button>
+                      )}
+                    </div>
 
                     <div className="flex gap-2">
                       <div
