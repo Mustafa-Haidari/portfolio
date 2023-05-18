@@ -4,7 +4,7 @@ import img from "../assets/profile.JPG";
 
 const About = () => {
   return (
-    <div className="h-screen pt-40 sm:pt-40 md:pt-40 p-8">
+    <div className="h-screen pt-40 md:pt-40 p-8">
       <div className="mx-auto flex flex-col gap-6 w-full sm:flex-row">
         <img
           className="rounded-2xl mx-auto w-60 object-cover"

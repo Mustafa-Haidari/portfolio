@@ -9,6 +9,9 @@
   html {
     font-family: "Raleway", sans-serif;
   }
+  body {
+    background-color: #0a192f;
+  }
   li {
     @apply px-4;
   }
@@ -17,7 +20,7 @@
     @apply hover:scale-105 duration-200;
   }
   .menu-tiles {
-    @apply bg-sky-800 h-full w-full cursor-pointer hover:bg-sky-700 py-4 px-4 rounded-md shadow-xl text-center font-bold text-white;
+    @apply bg-sky-800 h-full w-full cursor-pointer hover:bg-sky-700 py-4 px-4 rounded-md shadow-xl text-center font-bold text-white text-xs sm:text-xs sm:font-thin;
   }
   .skills-item {
     @apply shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-teal-700 rounded-md pt-4;

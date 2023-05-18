@@ -5,10 +5,13 @@ import { skillsData } from "../data/skills";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
+    <div
+      name="home"
+      className="h-full pt-40 sm:pt-40 md:pt-40 mb-20 bg-[#0a192f]"
+    >
       {/* container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <div className="mb-4 w-full p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+      <div className="max-w-[1000px] mx-auto px-8 h-screen">
+        <div className="mb-4 w-full p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8">
           <h1 className="text-4xl sm:text-4xl font-bold font-signature text-[#282e41]">
             Mustafa Haidari
           </h1>
@@ -47,8 +50,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="w-full p-4 bg-cyan-600 border border-gray-200 rounded-lg shadow sm:p-6 dark:bg-gray-800 dark:border-gray-700">
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 place-items-center items-center">
+        <div className="w-full p-4 bg-cyan-600 border border-gray-200 rounded-lg shadow sm:p-6">
+          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-4 place-items-center items-center">
             <Link to="/about-me" className="w-full">
               <div className="menu-tiles">About me</div>
             </Link>

@@ -14,13 +14,13 @@ const Projects = () => {
   };
   return (
     <div name="work" className="pt-20 text-gray-300">
-      <div className=" mx-auto p-4 pt-5 flex flex-col justify-center w-full h-full">
+      <div className=" mx-auto p-4 pt-5 flex flex-col">
         <h1 className="mb-4 mt-6 text-4xl font-bold text-[#d4972e]">
           Projects
         </h1>
         <p className=" pb-8">/ Check our some of my recent work</p>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 xl:gap-x-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 xl:gap-x-4">
           {/* Grid item */}
           {workData.map((work) => {
             return (

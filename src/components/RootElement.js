@@ -6,8 +6,8 @@ const RootElement = () => {
   return (
     <>
       <Navbar />
-      <main className="h-full bg-[#0a192f] w-full">
-        <div className="max-w-[1000px] mx-auto">
+      <main className="bg-[#0a192f] w-full">
+        <div className="max-w-[1000px] mx-auto mb-20">
           <Outlet />
         </div>
       </main>
