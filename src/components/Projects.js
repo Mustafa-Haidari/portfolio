@@ -80,7 +80,7 @@ const Projects = () => {
                             created: work.created,
                             image: work.image,
                             status: work.status,
-                            id: work.id,
+                            id: work.id + 12,
                             description: work.description,
                             frontendTechs: work.frontendTechs,
                             backendTechs: work.backendTechs,

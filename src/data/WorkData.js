@@ -1,6 +1,7 @@
 import colorgame from "../../src/assets/projects/colorgame.png";
 import filterjs from "../../src/assets/projects/filterjs.png";
 import kaakah from "../../src/assets/projects/kaakah.png";
+import meals from "../../src/assets/projects/meals.png";
 import kaakahArchitecture from "../../src/assets/projects/kk-architecture.png";
 
 const PortfolioData = [
@@ -22,6 +23,52 @@ const PortfolioData = [
   },
   {
     id: 1,
+    created: new Date(2022, 7, 1).toLocaleDateString(),
+    title: "Food order app",
+    image: meals,
+    description:
+      "Food order app is a simple React app that is simply rendering available means, allowing users to order and save their order. Context API is used for app-wide state management. This app is connected to a Firebase server and database.",
+    frontendTechs: ["JavaScript", "React", "CSS"],
+    backendTechs: ["Firebase"],
+    url: "https://mustafa-haidari.github.io/React-food-order/",
+    status: "Demo",
+    statusNote: "Demo app hosted on Github",
+    projectReflection:
+      "This was a very cool and comprehensive project that thought so much about React and Node.",
+    architecture: "",
+  },
+  {
+    id: 4,
+    created: new Date(2021, 11, 10).toLocaleDateString(),
+    title: "Weather app",
+    image: "https://mustafa-haidari.github.io/Mustafa/assets/weather-app.png",
+    description:
+      "The weather app is a simple app that makes an API call directly from the frontend and fetches the relevant data. Only CSS is used to design this app.",
+    frontendTechs: ["JavaScript", "CSS", "HTML"],
+    backendTechs: [],
+    url: "https://mustafa-haidari.github.io/weather-app/",
+    status: "Demo",
+    statusNote: "Demo app hosted on Github",
+    projectReflection: "",
+    architecture: "",
+  },
+  {
+    id: 8,
+    created: new Date(2018, 9, 2).toLocaleDateString(),
+    title: "Color Game",
+    image: colorgame,
+    description:
+      "The color game was built in 2018 when I was completing an advanced JavaScript course on Udemy. This is a great beginner project.",
+    frontendTechs: ["JavaScript", "CSS", "HTML"],
+    backendTechs: [],
+    url: "https://mustafa-haidari.github.io/ColorGame.github.io/",
+    status: "Demo",
+    statusNote: "Demo app hosted on Github",
+    projectReflection: "",
+    architecture: "",
+  },
+  {
+    id: 2,
     created: new Date(2021, 12, 10).toLocaleDateString(),
     title: "Expense tracker",
     image:
@@ -37,7 +84,7 @@ const PortfolioData = [
     architecture: "",
   },
   {
-    id: 2,
+    id: 3,
     created: new Date(2022, 1, 15).toLocaleDateString(),
     title: "Task assignment app",
     image:
@@ -53,22 +100,7 @@ const PortfolioData = [
     architecture: "",
   },
   {
-    id: 3,
-    created: new Date(2021, 11, 10).toLocaleDateString(),
-    title: "Weather app",
-    image: "https://mustafa-haidari.github.io/Mustafa/assets/weather-app.png",
-    description:
-      "The weather app is a simple app that makes an API call directly from the frontend and fetches the relevant data. Only CSS is used to design this app.",
-    frontendTechs: ["JavaScript", "CSS", "HTML"],
-    backendTechs: [],
-    url: "https://mustafa-haidari.github.io/weather-app/",
-    status: "Demo",
-    statusNote: "Demo app hosted on Github",
-    projectReflection: "",
-    architecture: "",
-  },
-  {
-    id: 4,
+    id: 5,
     created: new Date(2021, 12, 10).toLocaleDateString(),
     title: "Filter and print",
     image: filterjs,
@@ -83,7 +115,7 @@ const PortfolioData = [
     architecture: "",
   },
   {
-    id: 5,
+    id: 6,
     created: new Date(2021, 11, 20).toLocaleDateString(),
     title: "TV show app",
     image: "https://mustafa-haidari.github.io/Mustafa/assets/tv-show.png",
@@ -98,7 +130,7 @@ const PortfolioData = [
     architecture: "",
   },
   {
-    id: 6,
+    id: 7,
     created: new Date(2020, 9, 8).toLocaleDateString(),
     title: "Calculator",
     image: "https://mustafa-haidari.github.io/Mustafa/assets/calculator.png",
@@ -107,21 +139,6 @@ const PortfolioData = [
     frontendTechs: ["JavaScript", "CSS", "HTML"],
     backendTechs: [],
     url: "https://mustafa-haidari.github.io/calculator/",
-    status: "Demo",
-    statusNote: "Demo app hosted on Github",
-    projectReflection: "",
-    architecture: "",
-  },
-  {
-    id: 7,
-    created: new Date(2018, 9, 2).toLocaleDateString(),
-    title: "Color Game",
-    image: colorgame,
-    description:
-      "The color game was built in 2018 when I was completing an advanced JavaScript course on Udemy. This is a great beginner project.",
-    frontendTechs: ["JavaScript", "CSS", "HTML"],
-    backendTechs: [],
-    url: "https://mustafa-haidari.github.io/ColorGame.github.io/",
     status: "Demo",
     statusNote: "Demo app hosted on Github",
     projectReflection: "",

@@ -16,25 +16,25 @@ const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex z-10">
         <li className="nav-link">
-          <Link to="">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li className="nav-link">
-          <Link to="about-me">About me</Link>
+          <Link to="/about-me">About me</Link>
         </li>
         <li className="nav-link">
-          <Link to="work-history">Work history</Link>
+          <Link to="/work-history">Work history</Link>
         </li>
         <li className="nav-link">
-          <Link to="projects">Projects</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li className="nav-link">
-          <Link to="skills">Skills</Link>
+          <Link to="/skills">Skills</Link>
         </li>
         <li className="nav-link">
-          <Link to="blog">Blog</Link>
+          <Link to="/blog">Blog</Link>
         </li>
         <li className="nav-link">
-          <Link to="contact">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
 
@@ -60,32 +60,32 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about-me">
+          <Link onClick={handleClick} to="/about-me">
             About me
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work-history">
+          <Link onClick={handleClick} to="/work-history">
             Work history
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="projects">
+          <Link onClick={handleClick} to="/projects">
             Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills">
+          <Link onClick={handleClick} to="/skills">
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="blog">
+          <Link onClick={handleClick} to="/blog">
             Blog
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact">
+          <Link onClick={handleClick} to="/contact">
             Contact
           </Link>
         </li>

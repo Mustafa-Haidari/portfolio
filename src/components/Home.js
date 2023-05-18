@@ -49,22 +49,22 @@ const Home = () => {
 
         <div className="w-full p-4 bg-cyan-600 border border-gray-200 rounded-lg shadow sm:p-6 dark:bg-gray-800 dark:border-gray-700">
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 place-items-center items-center">
-            <Link to="about-me" className="w-full">
+            <Link to="/about-me" className="w-full">
               <div className="menu-tiles">About me</div>
             </Link>
-            <Link to="work-history" className="w-full">
+            <Link to="/work-history" className="w-full">
               <div className="menu-tiles">Work history</div>
             </Link>
-            <Link to="projects" className="w-full">
+            <Link to="/projects" className="w-full">
               <div className="menu-tiles">Projects</div>
             </Link>
-            <Link to="skills" className="w-full">
+            <Link to="/skills" className="w-full">
               <div className="menu-tiles">Skills</div>
             </Link>
-            <Link to="blog" className="w-full">
+            <Link to="/blog" className="w-full">
               <div className="menu-tiles">Blog</div>
             </Link>
-            <Link to="contact" className="w-full">
+            <Link to="/contact" className="w-full">
               <div className="menu-tiles">Contact me</div>
             </Link>
           </div>
