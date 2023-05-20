@@ -20,7 +20,7 @@ const PortfolioData = [
     status: "Live",
     statusNote: "This app is live being used by the public",
     projectReflection:
-      "This was a very cool and comprehensive project that thought so much about React and Node.",
+      "This was a very cool and comprehensive project that thought me so much about React, Node and working with APIs.",
     architecture: kaakahArchitecture,
   },
   {
@@ -37,8 +37,7 @@ const PortfolioData = [
     ghUrlBE: "",
     status: "Demo",
     statusNote: "Demo app hosted on Github",
-    projectReflection:
-      "This was a very cool and comprehensive project that thought so much about React and Node.",
+    projectReflection: "",
     architecture: "",
   },
   {
