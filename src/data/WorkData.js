@@ -20,7 +20,7 @@ const PortfolioData = [
     status: "Live",
     statusNote: "This app is live being used by the public",
     projectReflection:
-      "This was a very cool and comprehensive project that thought me so much about React, Node and working with APIs.",
+      "This was a very cool and comprehensive project that taught me so much about React, Node and working with APIs.",
     architecture: kaakahArchitecture,
   },
   {
